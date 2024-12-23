@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES5", // This can be ES6 or later if you prefer
+    "lib": ["dom", "es2015"], // This enables DOM and ES2015 features
+    "allowJs": true, // Allow JavaScript files
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "esModuleInterop": true, // Enables compatibility with CommonJS modules
+    "module": "ESNext", // Module system (use 'CommonJS' if you're not using ES modules)
+    "moduleResolution": "node", // Resolves modules as Node.js would
+    "jsx": "react-jsx", // Enable JSX support (use 'react' if using older React)
+    "strict": true, // Enable all strict type checking options
+    "noImplicitAny": true, // Disallow 'any' types without an explicit type
+    "skipDefaultLibCheck": true, // Skip checking default libraries
+    "resolveJsonModule": true // Allow importing .json files
+  },
+  "include": [
+    "src/**/*" // Include all files in the 'src' folder
+  ]
+}
